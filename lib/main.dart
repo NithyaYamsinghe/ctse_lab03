@@ -16,18 +16,16 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => CartProvider(),
       child: MaterialApp(
-        title: 'IT18206524',
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          primarySwatch: Colors.amber,
-        ),
-        initialRoute: Home.routeName,
-        routes: {
-          Home.routeName:(context) =>  const Home(),
-          Shop.routeName:(context) =>  const Shop()
-        }
-      ),
+          title: 'IT18233704',
+          debugShowCheckedModeBanner: false,
+          theme: ThemeData(
+            primarySwatch: Colors.amber,
+          ),
+          initialRoute: Home.routeName,
+          routes: {
+            Home.routeName: (context) => const Home(),
+            Shop.routeName: (context) => const Shop()
+          }),
     );
   }
 }
-
